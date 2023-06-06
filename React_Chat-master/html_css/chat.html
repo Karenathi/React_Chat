@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/chat.css">
+    <title>Chatroom</title>
+</head>
+
+<body>
+    <main>
+        <div class="first">
+            <div class="user-info">
+                <ul>
+                    <img src="pictures/cheryl-in-green.jpg" alt="" class="pfp">
+                </ul>
+
+                <ul>
+                    <p class="user-name">Cheryl Blossom</p>
+                </ul>
+
+                <ul class="right-side">
+                    <ul>
+                        <ion-icon name="notifications-outline" class="each-icons-serie"></ion-icon>
+                    </ul>
+
+                    <ul>
+                        <ion-icon name="build-outline" class="each-icons-serie"></ion-icon>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="search-bar">
+                <ul class="border">
+                    <ion-icon name="search-outline" class="search-icon"></ion-icon>
+                    <input type="text" class="input" placeholder="   Search">
+                </ul>
+                <ul class="plus">
+                    <ion-icon name="add-circle" class="plus-icon"></ion-icon>
+                </ul>
+            </div>
+
+            <div class="users-lane">
+                <ul>
+                    <h2 class="users-title">Users</h2>
+                </ul>
+
+                <ul class="users-list">
+                    <ul>
+                        <img src="pictures/cheryl-in-green.jpg" alt="" class="pfp">
+                    </ul>
+
+                    <ul>
+                        <p class="you" style="font-family: arial;">Vous</p>
+                        <p class="users-message">What's up baby?</p>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="second">
+            <!--Messages Room Head-->
+            <div class="head">
+                <ul>
+                    <ion-icon name="logo-electron" class="room-logo"></ion-icon>
+                </ul>
+
+                <ul>
+                    <p class="room-title">Global Room</p>
+                </ul>
+
+                <ul class="icons-serie">
+                    <li><ion-icon name="star-outline" class="each-icons-serie"></ion-icon></li>
+                    <li><ion-icon name="person-add-outline" class="each-icons-serie"></ion-icon></li>
+                    <li><ion-icon name="videocam-outline" class="each-icons-serie"></ion-icon></li>
+                    <li><ion-icon name="call-outline" class="each-icons-serie"></ion-icon></li>
+                    <a href="index.html"><li> <ion-icon name="exit-outline" class="each-icons-serie"></ion-icon></li></a>
+                </ul>
+            </div>
+             
+            <!--Messages-body-->
+            <div class="messages-body">
+                <ul class="border-message">
+                    <p class="users-message" id="users-message">What's up baby?</p>
+                </ul>
+            </div>
+
+            <div class="input-bar">
+                <ul class="input-box">
+                        <ion-icon name="happy-outline" class="each-icons-serie" id="smiley-icon"></ion-icon>
+                        <input type="text" placeholder="Type a message" class="input-message">
+                        <ion-icon name="image-outline" class="each-icons-serie" id="img-icon"></ion-icon>
+                </ul>
+
+                <ul class="send">
+                    <ion-icon name="send-outline" class="each-icons-serie" id="send-icon"></ion-icon>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

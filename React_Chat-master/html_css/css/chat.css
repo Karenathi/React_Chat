@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    border: #F9F9F9 solid 0.5px;
+    border-radius: 5px;
+    width: max-content;
+    height: max-content;
+    overflow-y: scroll;
+    margin: 1em auto;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: #DBDFAA;
+    height: 680px;
+}
+
+.title {
+    font-family: arial;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+    margin-bottom: 2rem;
+    border: #DDFFBB solid 1px;
+    height: 5rem;
+    width: 450px;
+    padding-left: 1rem;
+}
+
+.pfp {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.right-side {
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-weight: bold;
+}
+
+.circle {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    border: #3e3e3e 1px solid;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    cursor: pointer;
+}
+
+.user-name,
+.room-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    justify-content: center;
+}
+
+.input {
+    border: none;
+    width: 20em;
+    height: 1.75em;
+    border-radius: 20px;
+
+}
+
+
+.border {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 20em;
+    height: 1.75em;
+    border-radius: 20px;
+    border: #fff solid 2px;
+}
+
+.plus-icon {
+    font-size: 2em;
+    color: #539165;
+    cursor: pointer;
+}
+
+.search-icon {
+    margin-left: 1vw;
+}
+
+.users-lane {
+    margin-top: 2rem;
+    height: 500px;
+}
+
+.users-title {
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.users-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    border: #DDFFBB solid 1px;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    
+}
+
+.users-message{
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Messages Body*/
+.messages-body{
+    height: 520px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+
+}
+
+.border-message{
+    max-width: max-content;
+    border: #E3F2C1 solid 1px;
+    border-radius:20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #90B77D;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+#users-message{
+    font-weight: bold;
+    color: white;
+}
+
+/* Messages Block*/
+
+.second{
+    border: #F9F9F9 solid 1px;
+    background-color: #F9F9F9;
+     height: 679px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    border: #DDFFBB solid 1px;
+   background-color: #DBDFAA;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 4.75em;
+}
+
+.room-logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.room-title {
+    font-size: xx-large;
+}
+
+.icons-serie {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-left: 15rem;
+}
+
+.each-icons-serie {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.input-bar, .input-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-bar{
+    gap: 1vw;
+}
+
+.input-box{
+    gap: 1vw;
+   border:#DBDFAA solid 0.5px;
+   padding: 0 1rem 0rem 1rem;
+   background-color:#DBDFAA;
+   height: 3em;
+  border-radius: 5px;
+   margin-left: 2rem;
+}
+
+/* User Input*/
+.input-message{
+    width: 41em;
+    height: 2.5em;
+    border: none;
+    border-color: transparent;
+    border-radius: 3px;
+   
+}
+
+.send{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #539165;
+    color: white;
+    position: relative;
+}
+
+#send-icon{
+    margin-left: 1rem;
+    margin-top: 0.5em;
+
+}
